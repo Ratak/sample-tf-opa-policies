@@ -29,7 +29,7 @@ deny[reason] {
     not contains(existing_tags, required_tag)
 
     reason := sprintf(
-        "%s: missing required tag %q",
+        "%s: missing required tag %q _______TEST",
         [resource.address, required_tag]
     )
 }
