@@ -24,3 +24,8 @@ policy "user" {
   enabled           = true
   enforcement_level = "hard-mandatory"
 }
+
+policy "pin_module_version" {
+  enabled           = true
+  enforcement_level = "hard-mandatory"
+}
