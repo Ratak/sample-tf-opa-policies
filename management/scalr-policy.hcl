@@ -11,7 +11,7 @@ policy "resource_tags" {
 }
 
 policy "workspace_name" {
-  enabled           = false
+  enabled           = true
   enforcement_level = "hard-mandatory"
 }
 
