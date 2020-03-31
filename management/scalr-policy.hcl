@@ -21,6 +21,6 @@ policy "workspace_tags" {
 }
 
 policy "pin_module_version" {
-  enabled           = true
+  enabled           = false
   enforcement_level = "hard-mandatory"
 }
