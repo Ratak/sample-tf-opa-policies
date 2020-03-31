@@ -16,6 +16,6 @@ policy "workspace_name" {
 }
 
 policy "workspace_tags" {
-  enabled           = true
+  enabled           = false
   enforcement_level = "hard-mandatory"
 }
