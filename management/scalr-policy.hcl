@@ -14,3 +14,8 @@ policy "workspace_name" {
   enabled           = true
   enforcement_level = "hard-mandatory"
 }
+
+policy "workspace_tags" {
+  enabled           = false
+  enforcement_level = "soft-mandatory"
+}
