@@ -1,7 +1,7 @@
 version = "v1"
 
 policy "instance_types" {
-  enabled           = true
+  enabled           = false
   enforcement_level = "soft-mandatory"
 }
 
@@ -18,4 +18,9 @@ policy "workspace_name" {
 policy "workspace_tags" {
   enabled           = true
   enforcement_level = "soft-mandatory"
+}
+
+policy "cloud_location" {
+  enabled           = true
+  enforcement_level = "hard-mandatory"
 }
