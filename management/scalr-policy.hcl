@@ -21,6 +21,6 @@ policy "workspace_tags" {
 }
 
 policy "cloud_location" {
-  enabled           = false
+  enabled           = true
   enforcement_level = "hard-mandatory"
 }
