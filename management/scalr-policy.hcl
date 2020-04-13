@@ -19,3 +19,7 @@ policy "workspace_tags" {
   enabled           = true
   enforcement_level = "soft-mandatory"
 }
+policy "limit_monthly_cost" {
+  enabled           = true
+  enforcement_level = "soft-mandatory"
+}
