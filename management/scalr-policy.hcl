@@ -2,7 +2,7 @@ version = "v1"
 
 policy "instance_types" {
   enabled           = true
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "resource_tags" {
@@ -21,5 +21,5 @@ policy "workspace_tags" {
 }
 policy "limit_monthly_cost" {
   enabled           = true
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "soft-mandatory"
 }
