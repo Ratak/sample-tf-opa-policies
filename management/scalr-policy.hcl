@@ -7,7 +7,7 @@ policy "instance_types" {
 
 policy "resource_tags" {
   enabled           = true
-  enforcement_level = "hard-mandatory"
+  enforcement_level = "soft-mandatory"
 }
 
 policy "workspace_name" {
